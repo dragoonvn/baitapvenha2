@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="#985A47"
+        android:gravity="center"
+        android:text="6"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:background="#29DDCC"
+        android:gravity="center"
+        android:text="7"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#BF6E17"
+        android:gravity="center"
+        android:text="9"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#411387"
+        android:gravity="center"
+        android:text="8"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:background="#DD0D32"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/textview5"
+        android:layout_toLeftOf="@+id/textview5"
+        android:background="#28932C"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+     <TextView
+        android:id="@+id/textview7"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textview5"
+        android:layout_toLeftOf="@+id/textview5"
+        android:background="#A6AE61"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textview8"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textview5"
+        android:layout_toRightOf="@+id/textview5"
+        android:background="#6F8555"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textview9"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/textview5"
+        android:layout_toRightOf="@+id/textview5"
+        android:background="#A124B6"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="#FFEBEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+
+</RelativeLayout>
